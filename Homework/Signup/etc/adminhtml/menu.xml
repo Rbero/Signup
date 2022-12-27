@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Homework_Signup::signup" title="Vendor" module="Homework_Signup" sortOrder="10"
+             resource="Homework_Signup::signup"/>
+        <add id="Homework_Signup::grid" title="Manage Grid" module="Homework_Signup" sortOrder="10"
+             action="signup/index/index" resource="Homework_Signup::grid" parent="Homework_Signup::signup"/>
+    </menu>
+</config>
